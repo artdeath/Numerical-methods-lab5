@@ -1,6 +1,5 @@
 #ifndef LAB5_H
 #define LAB5_H
-#include <fstream>
 #include <vector>
 
 class Quadrature {
