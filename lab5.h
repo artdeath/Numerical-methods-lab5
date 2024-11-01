@@ -1,5 +1,5 @@
-#ifndef MYCLASS_H
-#define MYCLASS_H
+#ifndef LAB5_H
+#define LAB5_H
 #include <fstream>
 #include <vector>
 
@@ -7,13 +7,13 @@ class Quadrature {
 
 private:
 
-	double left; double right; //границы отрезка
+	double left; double right;
 
-	double h; //шаг
+	double h; 
 
-	std::vector<double> weight; //веса
+	std::vector<double> weight; 
 
-	std::vector<double> node; //узлы
+	std::vector<double> node; 
 
 
 public:
