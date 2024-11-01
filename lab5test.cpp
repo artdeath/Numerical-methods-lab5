@@ -7,9 +7,9 @@ int main() {
 
 	try {
 
-		std::initializer_list<double> weight = { 1. / 3., 4. / 3., 1. / 3. };
+		std::initializer_list<double> weight = { 1. / 3., 4. / 3., 1. / 3. }; //Parabola
 
-		std::initializer_list<double> node = { -1., 0., 1. }; //œ¿–¿¡ŒÀ€
+		std::initializer_list<double> node = { -1., 0., 1. };
 
 		Quadrature lab(0., 1., weight, node);
 
@@ -29,7 +29,7 @@ int main() {
 
 		}
 
-		weight = { 1., 1. }; //√¿”——-2
+		weight = { 1., 1. }; //Gauss-2
 
 		node = { -1. / std::sqrt(3.), 1. / std::sqrt(3.) };
 
