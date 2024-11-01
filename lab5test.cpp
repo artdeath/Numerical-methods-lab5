@@ -1,5 +1,4 @@
 #include "lab5.h"
-#include <iostream>
 
 int main() {
 
